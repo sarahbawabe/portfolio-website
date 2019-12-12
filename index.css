@@ -49,17 +49,13 @@ a:hover,#selected {
   top: 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 715px) {
   #name {
-    width: 400px;
+    width: 90vw;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  #name {
-    width: 90vw;
-  }
-
   a {
     font-size: 14px;
   }
