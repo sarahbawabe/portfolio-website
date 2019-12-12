@@ -36,9 +36,6 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  
-}
-@media only screen and (max-width: 600px) {
   #bottomBox {
     margin-top: 150px;
   }
@@ -54,6 +51,11 @@ p {
   .heatmapPNG {
     margin: 0px;
     margin-bottom: 20px;
+    width: 80vw;
+  }
+
+  .taxiPNG {
+    margin: 0px;
     width: 80vw;
   }
 }
