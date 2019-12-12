@@ -53,12 +53,12 @@ a:hover,#selected {
 @media only screen and (max-width: 700px) {
   #name img {
     width: 90vw;
-    max-height: 100%;
     height: auto;
+    max-height: 100%;
   }
 }
 
-@media only screen (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   a {
     font-size: 14px;
   }
