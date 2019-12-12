@@ -52,6 +52,7 @@ a:hover,#selected {
 @media only screen and (max-width: 715px) {
   #name {
     width: 90vw;
+    height: auto;
   }
 }
 
