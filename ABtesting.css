@@ -1,0 +1,59 @@
+#bottomBox {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 80vw;
+}
+
+h1 {
+  color: black;
+  margin: 30px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-size: 16px;
+}
+
+.picHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.taxiPNG {
+  width: 40vw;
+}
+
+.heatmapPNG {
+  width: 37vw;
+  margin: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+@media only screen and (max-width: 600px) {
+  #bottomBox {
+    margin-top: 150px;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+  .picHolder {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heatmapPNG {
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 80vw;
+  }
+}

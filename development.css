@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomBox {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 80vw;
+}
+
+h1 {
+  color: black;
+  margin: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-size: 16px;
+}
+
+#webLink {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.infoItem {
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+.infoPar {
+  width: 60vw;
+  margin-left: 20px;
+}
+
+h2 {
+  width: 10vw;
+}
+
+#devPic {
+  width: 80vw;
+}

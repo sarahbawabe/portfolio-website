@@ -1,0 +1,66 @@
+body {
+  font-family: monospace;
+  background-color: #BFBBBA;
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  width: 650px;
+}
+
+#nameBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#optionsBox {
+  display: flex;
+  float: none;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+a {
+  cursor: pointer;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,#selected {
+  background-color: #DF331F;
+  color: white;
+}
+
+.topBox {
+  background-color: #BFBBBA;
+  border-bottom: #DF331F solid 2px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 750px) {
+  #name {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #name {
+    width: 90vw;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}

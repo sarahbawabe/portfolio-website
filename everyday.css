@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#bottomBox {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 80vw;
+}
+
+h1 {
+  color: black;
+  margin: 30px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.infoBox {
+  margin-bottom: 50px;
+}
+
+#clickable {
+  background-color: #DF331F;
+  color: white;
+}
+
+#clickable:hover {
+  text-decoration: underline;
+}
+
+iframe {
+  width: 80vw;
+  height: 40vw;
+  margin-bottom: 30px;
+}
