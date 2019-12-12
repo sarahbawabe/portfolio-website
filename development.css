@@ -45,6 +45,7 @@ p {
   float: left;
   justify-content: center;
 }
+
 .infoPar {
   width: 60vw;
   margin-left: 20px;
@@ -55,5 +56,41 @@ h2 {
 }
 
 #devPic {
+  align-self: center;
   width: 80vw;
+}
+
+@media only screen and (max-width: 1050px) {
+  .bottomBox {
+    width: 95vw;
+  }
+
+  .infoItem {
+    flex-direction: column;
+    float: none;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+  }
+
+  h2 {
+    width: 95vw;
+  }
+
+  .infoPar {
+    width: 90vw;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bottomBox {
+    margin-top: 30vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bottomBox {
+    margin-top: 40vw;
+  }
 }
