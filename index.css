@@ -7,6 +7,7 @@ body {
 
 #name {
   width: 650px;
+  height: auto;
 }
 
 #nameBox {
@@ -52,7 +53,6 @@ a:hover,#selected {
 @media only screen and (max-width: 700px) {
   #name {
     width: 90vw;
-    max-height: 15vw;
   }
 }
 
