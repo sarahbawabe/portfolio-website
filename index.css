@@ -63,7 +63,7 @@ a:hover,#selected {
 }
 
 @media only screen and (max-width: 400px) {
-  #name {
+  #nameBox {
     max-height: 100px;
   }
 }
