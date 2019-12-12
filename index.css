@@ -50,9 +50,8 @@ a:hover,#selected {
 }
 
 @media only screen and (max-width: 700px) {
-  #name img {
+  #name {
     width: 90vw;
-    height: auto;
     max-height: 100%;
   }
 }
