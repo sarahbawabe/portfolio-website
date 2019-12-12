@@ -65,3 +65,45 @@ h2 {
   width: 80vw;
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 1050px) {
+  #bottomBox {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #bottomBox {
+    margin-top: 30vw;
+  }
+
+  #dexBlurb, p {
+    font-size: 14px;
+  }
+
+  .questionBox {
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 0px;
+    width: 80vw;
+  }
+
+  .answer {
+    margin-left: 0px;
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #bottomBox {
+    margin-top: 40vw;
+  }
+}
