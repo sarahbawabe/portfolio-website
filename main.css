@@ -159,9 +159,23 @@ h1 {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1200px){
+  .uiuxChooser {
+    font-size: 14px;
+    height: 24px;
+  }
+}
+
+@media only screen (max-width: 750px) {
+  #bottomBox {
+    margin-top: 20vh;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 900px){
   #bottomBox {
     flex-direction: column;
+    margin-top: 20vh;
   }
 
   .uiuxBox {
@@ -171,8 +185,14 @@ h1 {
     width: 90vw;
   }
 
+  .uiuxItem,.artItem {
+    margin: 2vw;
+  }
+
   .artBox {
     width: 90vw;
+    margin: 0px;
+    margin-left: 3vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
   }
@@ -182,6 +202,7 @@ h1 {
 @media only screen and (max-width: 480px) {
   #bottomBox {
     flex-direction: column;
+    margin-top: 20vh;
   }
 
   .uiuxBox {
@@ -191,8 +212,19 @@ h1 {
     width: 90vw;
   }
 
+  .uiuxItem,.artItem {
+    margin: 2vw;
+  }
+
+  .mainArt {
+    align-items: center;
+    justify-content: center;
+  }
+
   .artBox {
     width: 90vw;
+    margin: 0px;
+    margin-left: 5vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
   }
