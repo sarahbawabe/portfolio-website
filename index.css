@@ -8,6 +8,7 @@ body {
 
 #name {
   width: 650px;
+  max-height: 10vh;
 }
 
 #nameBox {
