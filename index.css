@@ -8,6 +8,7 @@ body {
 
 #name {
   width: 650px;
+  height: auto;
   max-height: 10vh;
 }
 
