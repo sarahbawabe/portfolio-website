@@ -43,6 +43,8 @@ a:hover,#selected {
 
 .topBox {
   background-color: #BFBBBA;
+  display: flex;
+  flex-direction: column;
   border-bottom: #DF331F solid 2px;
   width: 100vw;
   position: fixed;
