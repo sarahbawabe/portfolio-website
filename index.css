@@ -63,6 +63,11 @@ a:hover,#selected {
     height: auto;
   }
   
+  #nameBox {
+    height: auto;
+    max-height: 100%;
+  }
+  
   a {
     font-size: 14px;
   }
