@@ -3,6 +3,7 @@ body {
   background-color: #BFBBBA;
   display: flex;
   justify-content: center;
+  -webkit-box-sizing: border-box;
 }
 
 #name {
@@ -51,11 +52,7 @@ a:hover,#selected {
   top: 0;
 }
 
-@media screen and (max-width: 715px) {
-  body {
-    -webkit-box-sizing: border-box;
-  }
-  
+@media screen and (max-width: 715px) {  
   #name {
     width: 90vw;
     height: auto;
