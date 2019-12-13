@@ -56,14 +56,12 @@ a:hover,#selected {
     width: 90vw;
     height: auto;
   }
-}
-
-@media screen only and (max-width: 550px) {
-  #nameBox {
-    max-height: 100px;
-  }
   
   a {
     font-size: 14px;
   }
 }
+
+/* @media screen only and (max-width: 550px) { 
+  
+} */
