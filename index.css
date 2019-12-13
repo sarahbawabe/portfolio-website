@@ -55,7 +55,7 @@ a:hover,#selected {
   #name {
     width: 90vw;
     height: auto;
-    max-height: 15vh;
+    -webkit-box-sizing: border-box;
   }
   
   a {
