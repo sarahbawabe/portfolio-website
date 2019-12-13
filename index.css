@@ -51,7 +51,7 @@ a:hover,#selected {
   top: 0;
 }
 
-@media only screen and (max-width: 715px) {
+@media screen and (max-width: 715px) {
   #name {
     width: 90vw;
     max-width: 90vw;
@@ -62,7 +62,3 @@ a:hover,#selected {
     font-size: 14px;
   }
 }
-
-/* @media screen only and (max-width: 550px) { 
-  
-} */
