@@ -58,6 +58,11 @@ a:hover,#selected {
 }
 
 @media (max-width: 550px) {
+  #name {
+    width: 90vw;
+    height: auto;
+  }
+  
   a {
     font-size: 14px;
   }
