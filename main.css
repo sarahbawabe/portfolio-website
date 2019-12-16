@@ -168,7 +168,7 @@ h1 {
 
 @media only screen (max-width: 750px) {
   #bottomBox {
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
 }
 
@@ -206,7 +206,7 @@ h1 {
 @media only screen and (max-width: 480px) {
   #bottomBox {
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
 
   .uiuxBox {
