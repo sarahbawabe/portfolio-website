@@ -196,7 +196,6 @@ h1 {
 
   .artBox {
     width: 90vw;
-    margin: 0px;
     margin-left: 3vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
@@ -228,7 +227,6 @@ h1 {
 
   .artBox {
     width: 90vw;
-    margin: 0px;
     margin-left: 5vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
