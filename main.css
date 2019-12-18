@@ -79,7 +79,7 @@ h1 {
   grid-column: 4 / 6;
   grid-row: 1;
 
-  background-image: url("graySquare-01.png");
+  background-image: url("taxi.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -168,16 +168,11 @@ h1 {
 
 @media only screen (max-width: 750px) {
   #bottomBox {
-    margin-top: 15vh;
+    margin-top: 20vh;
   }
 }
 
-@media only screen and (max-width: 900px){
-  .uiuxChooser {
-    font-size: 12px;
-    height: 22px;
-  }
-  
+@media only screen and (min-width: 480px) and (max-width: 900px){
   #bottomBox {
     flex-direction: column;
     margin-top: 20vh;
@@ -196,6 +191,7 @@ h1 {
 
   .artBox {
     width: 90vw;
+    margin: 0px;
     margin-left: 3vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
@@ -206,7 +202,7 @@ h1 {
 @media only screen and (max-width: 480px) {
   #bottomBox {
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 20vh;
   }
 
   .uiuxBox {
@@ -227,6 +223,7 @@ h1 {
 
   .artBox {
     width: 90vw;
+    margin: 0px;
     margin-left: 5vw;
     grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
     grid-template-rows: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;
